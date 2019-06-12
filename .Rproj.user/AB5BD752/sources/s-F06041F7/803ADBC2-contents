@@ -10,7 +10,7 @@ To test `holepunch`, follow these steps:
 3. Click the Clone or download button, copy the URL.
 4. in Rstudio Desktop, click the project drop down on the top right, New Project, Version Control, Git, and paste in the URL of your new GitHub repository
 
-Now in Rstudio
+**Now in RStudio**
 
 1. Install `holepunch` with `remotes::install_github("karthik/holepunch")`
 2. Then run the following code:
@@ -26,7 +26,7 @@ generate_badge()
 
 # At this time push the code to GitHub 🙌
 
-# And click on the button or use
+# And click on the badge on your README or use
 build_binder()
 # 🤞🚀
 ```
