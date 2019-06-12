@@ -5,6 +5,7 @@ This repository is an example repo to test out the [`holepunch`](https://github.
 To test `holepunch`, follow these steps:
 
 1. Click Use this template to the left of Clone or download.
+![template](https://i.imgur.com/TcLpIvM.png)
 2. Give this repo a new name and create a new repo in your account
 3. Click the Clone or download button, copy the URL.
 4. in Rstudio Desktop, click the project drop down on the top right, New Project, Version Control, Git, and paste in the URL of your new GitHub repository
