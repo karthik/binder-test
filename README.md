@@ -1,3 +1,5 @@
+# Example repo for testing holepunch
+
 This repository is an example repo to test out the holepunch` package. It uses a few `tidyverse` packages but also the `dataRetrieval` package for the `yahara_dat` dataset.
 
 To test `holepunch`, follow these steps:
