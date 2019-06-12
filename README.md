@@ -8,7 +8,7 @@ To test `holepunch`, follow these steps:
 ![template](https://i.imgur.com/TcLpIvM.png)
 2. Give this repo a new name and create a new repo in your account
 3. Click the Clone or download button, copy the URL.
-4. in Rstudio Desktop, click the project drop down on the top right, New Project, Version Control, Git, and paste in the URL of your new GitHub repository
+4. in RStudio Desktop, click the Project drop down on the top right, Choose **New Project** > **Version Control** > **Git**, and paste in the URL of your new GitHub repository
 
 **Now in RStudio**
 
@@ -30,6 +30,7 @@ generate_badge() # Adds a binder badge to your README
 # And click on the badge on your README or use
 build_binder()
 # 🤞🚀
+Now run through analysis.R till you get to a plot
 ```
 
 Does clicking the badge launch binder for you? If not, please file an issue.
