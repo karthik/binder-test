@@ -17,14 +17,15 @@ To test `holepunch`, follow these steps:
 
 ```
 library(holepunch)
-# 🚫🚨No need for install.r or runtime.txt 🚨 🚫
 write_compendium_description()
 # to write a description, with dependencies listed 
+
 write_dockerfile() 
 # To write a dockerfile (more on how to adapt this)
-generate_badge()
 
-# At this time push the code to GitHub 🙌
+generate_badge() # Adds a binder badge to your README
+
+# At this time 🙌 push the code to GitHub 🙌
 
 # And click on the badge on your README or use
 build_binder()
