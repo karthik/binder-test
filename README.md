@@ -10,6 +10,12 @@ To test `holepunch`, follow these steps:
 3. Click the Clone or download button, copy the URL.
 4. in RStudio Desktop, click the Project drop down on the top right, Choose **New Project** > **Version Control** > **Git**, and paste in the URL of your new GitHub repository
 
+![](https://i.imgur.com/oJOV1ng.png)
+![](https://i.imgur.com/n3RZrMc.png)
+![](https://i.imgur.com/CJcAKR1.png)
+![](https://i.imgur.com/ieEmPRU.png)\
+\
+
 **Now in RStudio**
 
 1. Install `holepunch` with `remotes::install_github("karthik/holepunch")`
