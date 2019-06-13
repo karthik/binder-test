@@ -27,9 +27,10 @@ To test `holepunch`, follow these steps:
 ```
 library(holepunch)
 write_compendium_description()
-# to write a description, with dependencies listed 
+# to write a description, with dependencies listed. 
+# At some point be sure to fill out relevant information in to the description field
 
-write_dockerfile() 
+write_dockerfile(maintainer = "your_name") 
 # To write a dockerfile (more on how to adapt this)
 
 generate_badge() # Adds a binder badge to your README
