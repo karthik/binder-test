@@ -26,8 +26,8 @@ To test `holepunch`, follow these steps:
 
 ```
 library(holepunch)
-write_compendium_description(package = "Your compendium name", 
-                             description = "Your compendium description")
+write_compendium_description(Package = "Your compendium name", 
+                             Description = "Your compendium description")
 # to write a description, with dependencies listed 
 # It's good practice to now go fill in the placeholder text.
 
