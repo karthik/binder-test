@@ -26,18 +26,22 @@ To test `holepunch`, follow these steps:
 
 ```
 library(holepunch)
-write_compendium_description(Package = "Your compendium name", Description = "Your compendium description")
-# to write a description, with dependencies listed. 
-# At some point be sure to fill out relevant information in to the description field. 
+write_compendium_description(Package = "Your compendium name", 
+                             Description = "Your compendium description")
+# to write a description, with dependencies listed 
+# It's good practice to now go fill in the placeholder text.
 
 write_dockerfile(maintainer = "your_name") 
-# To write a dockerfile (more on how to adapt this)
+# To write a dockerfile. It will automatically pick the date of the last modified file, match it to 
+# that version of R and add it here. You can override this by passing r_date to some arbitrary date
+# (but one for which a R version exists).
 
-generate_badge() # Adds a binder badge to your README
+generate_badge()
+# This generates a badge for your readme.
 
 # At this time 🙌 push the code to GitHub 🙌
 
-# And click on the badge on your README or use
+# And click on the badge use to get the build ready ahead of time.
 build_binder()
 # 🤞🚀
 Now run through analysis.R till you get to a plot
