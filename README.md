@@ -50,4 +50,4 @@ build_binder()
 Now run through analysis.R till you get to a plot
 ```
 
-Does clicking the badge launch binder for you? If not, please file an issue.
+Does clicking the badge launch binder for you? If not, please [file an issue](karthik/binder-test/issues/new).
