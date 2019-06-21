@@ -8,6 +8,9 @@ To test `holepunch`, follow these steps:
 ![template](https://i.imgur.com/TcLpIvM.png)
 2. Give this repo a new name and create a new repo in your account
 3. Click the Clone or download button, copy the URL.
+
+![](https://i.imgur.com/0KEJZ9s.png)
+
 4. in RStudio Desktop, click the Project drop down on the top right, Choose **New Project** > **Version Control** > **Git**, and paste in the URL of your new GitHub repository
 
 ![](https://i.imgur.com/oJOV1ng.png)  
