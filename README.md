@@ -27,7 +27,7 @@ To test `holepunch`, follow these steps:
 1. Install `holepunch` with `remotes::install_github("karthik/holepunch")`
 2. Then run the following code:
 
-```
+```r
 library(holepunch)
 write_compendium_description(package = "Your compendium name", 
                              description = "Your compendium description")
