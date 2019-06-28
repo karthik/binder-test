@@ -1,2 +1,6 @@
 .*
-!/.gitignore
+!/.gitignore	
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
