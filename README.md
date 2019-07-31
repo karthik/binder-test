@@ -43,6 +43,8 @@ generate_badge()
 # This generates a badge for your readme.
 
 # At this time 🙌 push the code to GitHub 🙌
+# If you're new to Git/GitHub, you can click the Git tab on Rstudio, then click commit to see
+# all changed files/folders, including the hidden .binder folder. Give this a commmit message and push
 
 # And click on the badge or use the function below to get the binder built ahead of time.
 build_binder()
